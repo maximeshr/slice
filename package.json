@@ -1,0 +1,26 @@
+{
+  "name": "slice",
+  "version": "0.1.0",
+  "description": "SLICE — lean, tool-agnostic workflow for AI-assisted development",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximeshr/slice.git"
+  },
+  "bin": {
+    "slice": "./bin/slice.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "templates",
+    ".slice"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
