@@ -88,7 +88,7 @@ Members never need the full align transcript. The epic and each slice issue carr
 
 ## GitHub setup
 
-1. Install SLICE: `npx slice init`
+1. Install SLICE: `npx slice-workflow init`
 2. Enable the **Slice** issue template (`.github/ISSUE_TEMPLATE/slice.md`).
 3. Use labels: `epic` for scope issues, `slice` for work items.
 4. Link every slice issue to its epic (`Epic: #___` in the template).

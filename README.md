@@ -50,7 +50,7 @@ Scope defines *what* and *done*. Slice sequences *how*. If you can't phrase a sl
 ### 1. Add SLICE to your repo
 
 ```bash
-npx slice init
+npx slice-workflow init
 ```
 
 This copies `.slice/`, writes `AGENTS.md`, links `CLAUDE.md` → `AGENTS.md`, and symlinks skills and agents into `.cursor/` and `.claude/`. Re-run with `--force` to refresh `.slice/` without touching an existing `AGENTS.md`.
@@ -108,7 +108,7 @@ See [docs/team-workflow.md](docs/team-workflow.md) for roles (PO, lead, member),
 
 - [x] Method spec and Cursor adapter
 - [x] Claude Code adapter
-- [x] `slice init` installer
+- [x] `slice-workflow init` installer
 - [x] Slice issue template
 - [x] Team workflow (epic + issue queue)
 - [ ] Real-world validation before wider promotion

@@ -1,5 +1,5 @@
 {
-  "name": "slice",
+  "name": "slice-workflow",
   "version": "0.1.0",
   "description": "SLICE — lean, tool-agnostic workflow for AI-assisted development",
   "type": "module",
@@ -9,7 +9,7 @@
     "url": "git+https://github.com/maximeshr/slice.git"
   },
   "bin": {
-    "slice": "./bin/slice.js"
+    "slice-workflow": "./bin/slice-workflow.js"
   },
   "files": [
     "bin",

@@ -3,7 +3,7 @@
 import { installSliceFramework } from "../lib/init.js";
 
 function printUsage() {
-  console.log(`Usage: slice init [directory] [--force]
+  console.log(`Usage: slice-workflow init [directory] [--force]
 
 Install SLICE into a project:
   - copies .slice/
