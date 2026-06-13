@@ -21,7 +21,7 @@ Tool-neutral. This file declares *how each step should run* in the abstract. It 
 
 | Step | reasoning | access | isolation | Notes |
 |------|-----------|--------|-----------|-------|
-| map | light | edit | worker | Scan delegated; synthesize a compact map, never dump the codebase. |
+| map | light | edit | worker | Scan delegated; synthesize a compact map, never dump the codebase. Exclude SLICE install surface (`.slice/`, `.cursor/`, `.claude/`, `AGENTS.md`, `CLAUDE.md`) and standard build/cache dirs. Map application code only; greenfield if none found. |
 | align | heavy | read | inline | Relentless interview; human-in-the-loop, cannot be delegated. |
 | scope | heavy | plan | inline | Produce the one-doc feature contract + acceptance criteria. |
 | slice | heavy | plan | inline | Cut into vertical, independently shippable increments. |

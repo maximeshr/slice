@@ -28,7 +28,7 @@ map → align → scope → slice → ( build → review )* → record
 
 | Step | Does | Output |
 |------|------|--------|
-| `map` | Refresh the architecture map (delegated scan) | a compact repo map |
+| `map` | Refresh the architecture map (delegated scan; application code only, greenfield stub if empty) | a compact repo map |
 | `align` | Interview to a shared understanding | a shared mental model |
 | `scope` | Write the feature contract | one scope doc / epic |
 | `slice` | Cut into vertical increments | N slice issues |

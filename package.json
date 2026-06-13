@@ -1,6 +1,6 @@
 {
   "name": "slice-workflow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SLICE — lean, tool-agnostic workflow for AI-assisted development",
   "type": "module",
   "license": "MIT",
