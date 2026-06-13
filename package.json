@@ -9,7 +9,7 @@
     "url": "git+https://github.com/maximeshr/slice.git"
   },
   "bin": {
-    "slice-workflow": "./bin/slice-workflow.js"
+    "slice-workflow": "bin/cli.js"
   },
   "files": [
     "bin",
